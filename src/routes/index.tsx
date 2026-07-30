@@ -116,12 +116,13 @@ function Index() {
           />
           <div className="relative mx-auto max-w-6xl px-6 py-24 text-center md:py-36">
             <img
-              src={logoAsset.url}
+              src={logoMark}
               alt="Stickbreak Studios logo"
-              width={220}
-              height={220}
-              className="mx-auto mb-8 h-40 w-40 rounded-lg object-cover shadow-[var(--shadow-glow)] md:h-52 md:w-52"
+              width={719}
+              height={421}
+              className="mx-auto mb-8 w-64 max-w-full drop-shadow-[0_0_45px_color-mix(in_oklab,var(--primary)_35%,transparent)] md:w-80"
             />
+
             <p className="label-mono">Independent game studio · Est. 2019</p>
             <h1 className="mx-auto mt-5 max-w-3xl text-4xl font-bold uppercase leading-[1.05] md:text-7xl">
               We break sticks so
