@@ -35,23 +35,6 @@ const games = [
   },
 ];
 
-const values = [
-  {
-    n: "01",
-    title: "Feel first",
-    body: "We prototype with a controller in hand. If the first ten seconds don't feel good, the idea gets broken and rebuilt.",
-  },
-  {
-    n: "02",
-    title: "Small on purpose",
-    body: "Six people, no publisher notes. Tight scope means every mechanic in the box actually earned its place.",
-  },
-  {
-    n: "03",
-    title: "Built in public",
-    body: "Devlogs, playtest builds and postmortems. Our community sees the ugly milestones, not just the trailer.",
-  },
-];
 
 function Index() {
   return (
