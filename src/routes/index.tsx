@@ -35,23 +35,6 @@ const games = [
   },
 ];
 
-const values = [
-  {
-    n: "01",
-    title: "Feel first",
-    body: "We prototype with a controller in hand. If the first ten seconds don't feel good, the idea gets broken and rebuilt.",
-  },
-  {
-    n: "02",
-    title: "Small on purpose",
-    body: "Six people, no publisher notes. Tight scope means every mechanic in the box actually earned its place.",
-  },
-  {
-    n: "03",
-    title: "Built in public",
-    body: "Devlogs, playtest builds and postmortems. Our community sees the ugly milestones, not just the trailer.",
-  },
-];
 
 function Index() {
   return (
@@ -69,7 +52,7 @@ function Index() {
           </a>
 
           <nav className="hidden items-center gap-8 md:flex">
-            {["Games", "Studio", "Devlog"].map((item) => (
+            {["Games"].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
@@ -117,10 +100,10 @@ function Index() {
                 Play our games
               </a>
               <a
-                href="#studio"
+                href="#contact"
                 className="clip-corner border border-border px-6 py-3 font-display text-sm font-bold uppercase tracking-[0.15em] text-foreground transition-colors hover:border-primary hover:text-primary"
               >
-                About the studio
+                Get in touch
               </a>
             </div>
           </div>
@@ -141,86 +124,11 @@ function Index() {
           </div>
         </section>
 
-        {/* Studio */}
-        <section id="studio" className="border-y border-border bg-card/40">
-          <div className="mx-auto grid max-w-6xl gap-12 px-6 py-24 md:grid-cols-[1fr_1.2fr]">
-            <div>
-              <p className="label-mono">02 — Studio</p>
-              <h2 className="mt-3 text-3xl font-bold uppercase md:text-5xl">
-                Handmade,
-                <br />
-                stubbornly
-              </h2>
-              <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
-                We started in a shared flat with two second-hand arcade sticks and a
-                habit of snapping them mid-run. The name stuck. Today we're six people
-                across three time zones, still building the kind of games we grew up
-                grinding.
-              </p>
-              <dl className="mt-10 grid grid-cols-3 gap-4">
-                {[
-                  ["6", "People"],
-                  ["3", "Titles"],
-                  ["1.2M", "Players"],
-                ].map(([value, label]) => (
-                  <div key={label} className="border-l border-primary/60 pl-4">
-                    <dt className="font-display text-2xl font-bold text-primary">
-                      {value}
-                    </dt>
-                    <dd className="label-mono mt-1">{label}</dd>
-                  </div>
-                ))}
-              </dl>
-            </div>
-            <ul className="space-y-4">
-              {values.map((v) => (
-                <li
-                  key={v.n}
-                  className="clip-corner border border-border bg-card p-6 transition-colors hover:border-primary/60"
-                >
-                  <p className="font-display text-xs font-bold tracking-[0.2em] text-primary">
-                    {v.n}
-                  </p>
-                  <h3 className="mt-2 text-xl font-bold uppercase">{v.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                    {v.body}
-                  </p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </section>
-
-        {/* Devlog */}
-        <section id="devlog" className="mx-auto max-w-6xl px-6 py-24">
-          <p className="label-mono">03 — Devlog</p>
-          <h2 className="mt-3 text-3xl font-bold uppercase md:text-5xl">From the desk</h2>
-          <div className="mt-10 divide-y divide-border border-y border-border">
-            {[
-              ["Jul 2026", "Rebuilding Neon Courier's grapple in one week"],
-            ].map(([date, title]) => (
-              <a
-                key={title}
-                href="#devlog"
-                className="group flex flex-wrap items-center justify-between gap-3 py-6 transition-colors hover:text-primary"
-              >
-                <span className="label-mono">{date}</span>
-                <span className="flex-1 font-display text-lg font-semibold md:text-xl">
-                  {title}
-                </span>
-                <span className="text-primary opacity-0 transition-opacity group-hover:opacity-100">
-                  →
-                </span>
-              </a>
-            ))}
-          </div>
-        </section>
-
         {/* Contact */}
         <section id="contact" className="relative overflow-hidden border-t border-border">
           <div className="grid-bg absolute inset-0 opacity-60" />
           <div className="relative mx-auto max-w-3xl px-6 py-24 text-center">
-            <p className="label-mono">04 — Contact</p>
+            <p className="label-mono">02 — Contact</p>
             <h2 className="mt-3 text-3xl font-bold uppercase md:text-5xl">
               Press, publishing, or just say hi
             </h2>
