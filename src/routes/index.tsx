@@ -123,8 +123,6 @@ function Index() {
               className="mx-auto mb-8 w-64 max-w-full drop-shadow-[0_0_45px_color-mix(in_oklab,var(--primary)_35%,transparent)] md:w-80"
             />
 
-            <p className="label-mono">Independent game studio</p>
-            <p className="label-mono mt-2">Est. 2026</p>
             <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
               A one-man indie game studio currently focused on simple arcade games and
               homebrew titles, on mobile and retro handhelds.
