@@ -30,7 +30,7 @@ const games = [
     genre: "Arcade / Platform",
     status: "In Development",
     blurb:
-      "Climb the falling blocks without getting squashed or caught up by the rising lava.",
+      "Climb falling blocks without getting squashed or caught up by the rising lava.",
     image: game1,
   },
 ];
