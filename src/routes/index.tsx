@@ -123,7 +123,8 @@ function Index() {
               className="mx-auto mb-8 w-64 max-w-full drop-shadow-[0_0_45px_color-mix(in_oklab,var(--primary)_35%,transparent)] md:w-80"
             />
 
-            <p className="label-mono">Independent game studio · Est. 2019</p>
+            <p className="label-mono">Independent game studio</p>
+            <p className="label-mono mt-2">Est. 2026</p>
             <h1 className="mx-auto mt-5 max-w-3xl text-4xl font-bold uppercase leading-[1.05] md:text-7xl">
               We break sticks so
               <span className="text-primary"> the games feel right</span>
