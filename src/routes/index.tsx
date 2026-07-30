@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-import logoAsset from "@/assets/stickbreak-logo.jpg.asset.json";
+import logoMark from "@/assets/stickbreak-logo.png";
 import game1 from "@/assets/game-1.jpg";
 import game2 from "@/assets/game-2.jpg";
 import game3 from "@/assets/game-3.jpg";
@@ -78,16 +78,14 @@ function Index() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <a href="#top" className="flex items-center gap-3">
             <img
-              src={logoAsset.url}
+              src={logoMark}
               alt="Stickbreak Studios logo"
-              width={40}
-              height={40}
-              className="h-10 w-10 rounded-sm object-cover"
+              width={719}
+              height={421}
+              className="h-9 w-auto"
             />
-            <span className="font-display text-sm font-bold uppercase tracking-[0.25em]">
-              Stickbreak
-            </span>
           </a>
+
           <nav className="hidden items-center gap-8 md:flex">
             {["Games", "Studio", "Devlog"].map((item) => (
               <a
@@ -118,12 +116,13 @@ function Index() {
           />
           <div className="relative mx-auto max-w-6xl px-6 py-24 text-center md:py-36">
             <img
-              src={logoAsset.url}
+              src={logoMark}
               alt="Stickbreak Studios logo"
-              width={220}
-              height={220}
-              className="mx-auto mb-8 h-40 w-40 rounded-lg object-cover shadow-[var(--shadow-glow)] md:h-52 md:w-52"
+              width={719}
+              height={421}
+              className="mx-auto mb-8 w-64 max-w-full drop-shadow-[0_0_45px_color-mix(in_oklab,var(--primary)_35%,transparent)] md:w-80"
             />
+
             <p className="label-mono">Independent game studio · Est. 2019</p>
             <h1 className="mx-auto mt-5 max-w-3xl text-4xl font-bold uppercase leading-[1.05] md:text-7xl">
               We break sticks so
