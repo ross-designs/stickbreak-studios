@@ -125,9 +125,6 @@ function Index() {
 
             <p className="label-mono">Independent game studio</p>
             <p className="label-mono mt-2">Est. 2026</p>
-            <h1 className="mx-auto mt-5 max-w-3xl text-4xl font-bold uppercase leading-[1.05] md:text-7xl">
-              <span className="text-primary">the games feel right</span>
-            </h1>
             <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
               Stickbreak Studios is a six-person crew making tactile, controller-first
               games — arcade at heart, strange at the edges.
