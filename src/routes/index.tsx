@@ -35,22 +35,6 @@ const games = [
       "Run packages through a city that never sleeps. Every alley remembers the last delivery you botched.",
     image: game1,
   },
-  {
-    title: "Dust Rally",
-    genre: "Arcade Racing",
-    status: "Out Now",
-    blurb:
-      "Sun-bleached hovercraft racing with handbrake physics, custom rigs and a killer synth soundtrack.",
-    image: game2,
-  },
-  {
-    title: "Deepglass",
-    genre: "Exploration / Horror",
-    status: "Announced",
-    blurb:
-      "One sub, one searchlight, and ruins that shift when you look away. Map the trench before it maps you.",
-    image: game3,
-  },
 ];
 
 const values = [
