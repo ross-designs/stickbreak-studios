@@ -78,16 +78,14 @@ function Index() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <a href="#top" className="flex items-center gap-3">
             <img
-              src={logoAsset.url}
+              src={logoMark}
               alt="Stickbreak Studios logo"
-              width={40}
-              height={40}
-              className="h-10 w-10 rounded-sm object-cover"
+              width={719}
+              height={421}
+              className="h-9 w-auto"
             />
-            <span className="font-display text-sm font-bold uppercase tracking-[0.25em]">
-              Stickbreak
-            </span>
           </a>
+
           <nav className="hidden items-center gap-8 md:flex">
             {["Games", "Studio", "Devlog"].map((item) => (
               <a
