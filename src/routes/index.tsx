@@ -64,9 +64,9 @@ function Index() {
           </nav>
           <a
             href="#contact"
-            className="clip-corner bg-primary px-4 py-2 font-display text-xs font-bold uppercase tracking-[0.15em] text-primary-foreground transition-opacity hover:opacity-90"
+            className="clip-corner border border-border px-4 py-2 font-display text-xs font-bold uppercase tracking-[0.15em] text-foreground transition-colors hover:border-primary hover:text-primary"
           >
-            Contact
+            Get in touch
           </a>
         </div>
       </header>
@@ -97,7 +97,7 @@ function Index() {
                 href="#games"
                 className="clip-corner bg-primary px-6 py-3 font-display text-sm font-bold uppercase tracking-[0.15em] text-primary-foreground transition-opacity hover:opacity-90"
               >
-                Play our games
+                Our games
               </a>
               <a
                 href="#contact"
