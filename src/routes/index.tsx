@@ -201,8 +201,6 @@ function Index() {
           <div className="mt-10 divide-y divide-border border-y border-border">
             {[
               ["Jul 2026", "Rebuilding Neon Courier's grapple in one week"],
-              ["Jun 2026", "Dust Rally: what our physics rewrite actually cost"],
-              ["May 2026", "Deepglass — designing fear without a monster"],
             ].map(([date, title]) => (
               <a
                 key={title}
