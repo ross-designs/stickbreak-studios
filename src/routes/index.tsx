@@ -133,9 +133,7 @@ function Index() {
               <p className="label-mono">01 — Catalogue</p>
               <h2 className="mt-3 text-3xl font-bold uppercase md:text-5xl">Our games</h2>
             </div>
-            <p className="max-w-sm text-sm text-muted-foreground">
-              A single world in rotation. Neon Courier is still taking shape.
-            </p>
+            </div>
           </div>
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {games.map((game) => (
