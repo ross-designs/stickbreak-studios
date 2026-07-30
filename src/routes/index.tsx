@@ -26,11 +26,11 @@ export const Route = createFileRoute("/")({
 
 const games = [
   {
-    title: "Neon Courier",
-    genre: "Cyberpunk / Stealth",
+    title: "Block Climber",
+    genre: "Arcade / Platform",
     status: "In Development",
     blurb:
-      "Run packages through a city that never sleeps. Every alley remembers the last delivery you botched.",
+      "Climb the falling blocks without getting squashed or caught up by the rising lava.",
     image: game1,
   },
 ];
