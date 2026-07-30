@@ -134,7 +134,6 @@ function Index() {
               <h2 className="mt-3 text-3xl font-bold uppercase md:text-5xl">Our games</h2>
             </div>
             </div>
-          </div>
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {games.map((game) => (
               <GameCard key={game.title} {...game} />
