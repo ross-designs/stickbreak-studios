@@ -100,10 +100,10 @@ function Index() {
                 Play our games
               </a>
               <a
-                href="#studio"
+                href="#contact"
                 className="clip-corner border border-border px-6 py-3 font-display text-sm font-bold uppercase tracking-[0.15em] text-foreground transition-colors hover:border-primary hover:text-primary"
               >
-                About the studio
+                Get in touch
               </a>
             </div>
           </div>
@@ -128,7 +128,7 @@ function Index() {
         <section id="contact" className="relative overflow-hidden border-t border-border">
           <div className="grid-bg absolute inset-0 opacity-60" />
           <div className="relative mx-auto max-w-3xl px-6 py-24 text-center">
-            <p className="label-mono">04 — Contact</p>
+            <p className="label-mono">02 — Contact</p>
             <h2 className="mt-3 text-3xl font-bold uppercase md:text-5xl">
               Press, publishing, or just say hi
             </h2>
