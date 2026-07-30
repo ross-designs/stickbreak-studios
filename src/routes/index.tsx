@@ -126,8 +126,8 @@ function Index() {
             <p className="label-mono">Independent game studio</p>
             <p className="label-mono mt-2">Est. 2026</p>
             <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-              Stickbreak Studios is a six-person crew making tactile, controller-first
-              games — arcade at heart, strange at the edges.
+              A one-man indie game studio currently focused on simple arcade games and
+              homebrew titles, on mobile and retro handhelds.
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
               <a
