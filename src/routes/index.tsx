@@ -148,17 +148,6 @@ function Index() {
       <footer className="border-t border-border">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-8">
           <p className="label-mono">© 2026 Stickbreak Studios</p>
-          <div className="flex gap-6">
-            {["Steam", "Discord", "Bluesky", "YouTube"].map((s) => (
-              <a
-                key={s}
-                href="#contact"
-                className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground transition-colors hover:text-primary"
-              >
-                {s}
-              </a>
-            ))}
-          </div>
         </div>
       </footer>
     </div>
