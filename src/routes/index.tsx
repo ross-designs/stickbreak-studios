@@ -2,8 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import logoMark from "@/assets/stickbreak-logo.png";
 import game1 from "@/assets/game-1.jpg";
-import game2 from "@/assets/game-2.jpg";
-import game3 from "@/assets/game-3.jpg";
 import { GameCard } from "@/components/site/GameCard";
 
 export const Route = createFileRoute("/")({
@@ -34,22 +32,6 @@ const games = [
     blurb:
       "Run packages through a city that never sleeps. Every alley remembers the last delivery you botched.",
     image: game1,
-  },
-  {
-    title: "Dust Rally",
-    genre: "Arcade Racing",
-    status: "Out Now",
-    blurb:
-      "Sun-bleached hovercraft racing with handbrake physics, custom rigs and a killer synth soundtrack.",
-    image: game2,
-  },
-  {
-    title: "Deepglass",
-    genre: "Exploration / Horror",
-    status: "Announced",
-    blurb:
-      "One sub, one searchlight, and ruins that shift when you look away. Map the trench before it maps you.",
-    image: game3,
   },
 ];
 
@@ -152,8 +134,7 @@ function Index() {
               <h2 className="mt-3 text-3xl font-bold uppercase md:text-5xl">Our games</h2>
             </div>
             <p className="max-w-sm text-sm text-muted-foreground">
-              Three worlds in rotation. One shipped, one in the trenches, one still
-              whispering from the dark.
+              A single world in rotation. Neon Courier is still taking shape.
             </p>
           </div>
           <div className="mt-10 grid gap-6 md:grid-cols-3">
@@ -220,8 +201,6 @@ function Index() {
           <div className="mt-10 divide-y divide-border border-y border-border">
             {[
               ["Jul 2026", "Rebuilding Neon Courier's grapple in one week"],
-              ["Jun 2026", "Dust Rally: what our physics rewrite actually cost"],
-              ["May 2026", "Deepglass — designing fear without a monster"],
             ].map(([date, title]) => (
               <a
                 key={title}
