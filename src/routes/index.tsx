@@ -109,13 +109,11 @@ function Index() {
         </section>
 
         {/* Games */}
-        <section id="games" className="mx-auto max-w-6xl px-6 py-24">
-          <div className="flex flex-wrap items-end justify-between gap-4 border-b border-border pb-6">
-            <div>
-              <h2 className="mt-3 text-3xl font-bold uppercase md:text-5xl">Our games</h2>
-            </div>
-            </div>
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
+        <section id="games" className="mx-auto max-w-6xl px-6 py-24 text-center">
+          <div className="border-b border-border pb-6">
+            <h2 className="text-3xl font-bold uppercase md:text-5xl">Our games</h2>
+          </div>
+          <div className="mt-10 grid gap-6 md:grid-cols-3 md:justify-center">
             {games.map((game) => (
               <GameCard key={game.title} {...game} />
             ))}
