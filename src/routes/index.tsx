@@ -131,7 +131,7 @@ function Index() {
               We'd love to hear from you
             </h2>
             <p className="mx-auto mt-5 max-w-md text-sm text-muted-foreground">
-              We answer every email — usually between builds, occasionally at 3am.
+              No question too small!
             </p>
             <a
               href="mailto:hello@stickbreak.studio"
