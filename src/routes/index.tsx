@@ -52,17 +52,6 @@ function Index() {
             />
           </a>
 
-          <nav className="hidden items-center gap-8 md:flex">
-            {["Games"].map((item) => (
-              <a
-                key={item}
-                href={`#${item.toLowerCase()}`}
-                className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground transition-colors hover:text-primary"
-              >
-                {item}
-              </a>
-            ))}
-          </nav>
           <a
             href="#contact"
             className="clip-corner border border-border px-4 py-2 font-display text-xs font-bold uppercase tracking-[0.15em] text-foreground transition-colors hover:border-primary hover:text-primary"
