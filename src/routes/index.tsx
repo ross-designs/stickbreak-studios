@@ -8,17 +8,17 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Stickbreak Studios — Indie Games Made By Hand" },
+      { title: "Stickbreak Studios" },
       {
         name: "description",
         content:
-          "Stickbreak Studios is a small independent game studio building tactile, controller-first games. Meet our games, our crew, and get in touch.",
+          "Stickbreak Studios is a small indie game studio currently focused on arcade games and homebrew titles, across mobile and retro handhelds.",
       },
-      { property: "og:title", content: "Stickbreak Studios — Indie Games Made By Hand" },
+      { property: "og:title", content: "Stickbreak Studios" },
       {
         property: "og:description",
         content:
-          "A small independent game studio building tactile, controller-first games.",
+          "Stickbreak Studios is a small indie game studio currently focused on arcade games and homebrew titles, across mobile and retro handhelds.",
       },
     ],
   }),

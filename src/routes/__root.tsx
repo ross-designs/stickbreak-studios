@@ -77,20 +77,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Stickbreak Studios — Indie Game Studio" },
+      { title: "Stickbreak Studios" },
       {
         name: "description",
         content:
-          "Stickbreak Studios is an independent game studio crafting handmade, controller-first games with heart.",
+          "Stickbreak Studios is a small indie game studio currently focused on arcade games and homebrew titles, across mobile and retro handhelds.",
       },
       { name: "author", content: "Stickbreak Studios" },
-      { property: "og:title", content: "Stickbreak Studios — Indie Game Studio" },
+      { property: "og:title", content: "Stickbreak Studios" },
       {
         property: "og:description",
-        content: "Handmade, controller-first indie games from Stickbreak Studios.",
+        content: "Stickbreak Studios is a small indie game studio currently focused on arcade games and homebrew titles, across mobile and retro handhelds.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Stickbreak Studios" },
+      { name: "twitter:description", content: "Stickbreak Studios is a small indie game studio currently focused on arcade games and homebrew titles, across mobile and retro handhelds." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/13878504-aa8c-4c5b-9f0d-a8dcbddb1a06/id-preview-dc3f3a54--b5aab7b7-eb27-4247-93de-0df1243f5d6e.lovable.app-1785498887425.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/13878504-aa8c-4c5b-9f0d-a8dcbddb1a06/id-preview-dc3f3a54--b5aab7b7-eb27-4247-93de-0df1243f5d6e.lovable.app-1785498887425.png" },
     ],
     links: [
       {
