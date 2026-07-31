@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 
 import logoMark from "@/assets/stickbreak-logo.png";
-import game1 from "@/assets/game-1.jpg";
+import blockClimberPoster from "@/assets/block-climber-poster.png.asset.json";
 import { GameCard } from "@/components/site/GameCard";
 import { cn } from "@/lib/utils";
 
@@ -32,7 +32,7 @@ const games = [
     status: "In Development",
     blurb:
       "Climb falling blocks without getting crushed or caught by the rising lava.",
-    image: game1,
+    image: blockClimberPoster.url,
   },
 ];
 
