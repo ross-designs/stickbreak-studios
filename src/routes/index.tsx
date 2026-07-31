@@ -114,9 +114,11 @@ function Index() {
           <div className="border-b border-border pb-6">
             <h2 className="text-3xl font-bold uppercase md:text-5xl">Our games</h2>
           </div>
-          <div className={cn("mt-10 grid gap-6", games.length === 1 ? "place-items-center" : "md:grid-cols-3")}>
+          <div className="mt-10 grid gap-6 md:grid-cols-3">
             {games.map((game) => (
-              <GameCard key={game.title} {...game} />
+              <div key={game.title} className={cn(games.length === 1 && "md:col-start-2")}>
+                <GameCard {...game} />
+              </div>
             ))}
           </div>
         </section>
