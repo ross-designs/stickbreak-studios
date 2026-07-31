@@ -32,7 +32,7 @@ const games = [
     status: "In Development",
     blurb:
       "Climb falling blocks without getting crushed or caught by the rising lava.",
-    image: game1,
+    image: blockClimberPoster.url,
   },
 ];
 
