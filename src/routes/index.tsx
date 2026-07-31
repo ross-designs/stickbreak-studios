@@ -130,9 +130,6 @@ function Index() {
             <h2 className="mt-3 text-3xl font-bold uppercase md:text-5xl">
               We'd love to hear from you
             </h2>
-            <p className="mx-auto mt-5 max-w-md text-sm text-muted-foreground">
-              No question too small!
-            </p>
             <a
               href="mailto:hello@stickbreak.studio"
               className="clip-corner mt-8 inline-block bg-primary px-8 py-4 font-display text-sm font-bold uppercase tracking-[0.15em] text-primary-foreground transition-opacity hover:opacity-90"
