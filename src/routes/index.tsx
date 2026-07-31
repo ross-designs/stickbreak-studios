@@ -120,10 +120,10 @@ function Index() {
               We'd love to hear from you
             </h2>
             <a
-              href="mailto:hello@stickbreak.studio"
+              href="mailto:info@stickbreak.studio"
               className="clip-corner mt-8 inline-block bg-primary px-8 py-4 font-display text-sm font-bold uppercase tracking-[0.15em] text-primary-foreground transition-opacity hover:opacity-90"
             >
-              hello@stickbreak.studio
+              info@stickbreak.studio
             </a>
           </div>
         </section>
