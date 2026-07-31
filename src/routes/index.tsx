@@ -112,7 +112,6 @@ function Index() {
         <section id="games" className="mx-auto max-w-6xl px-6 py-24">
           <div className="flex flex-wrap items-end justify-between gap-4 border-b border-border pb-6">
             <div>
-              <p className="label-mono">01 — Catalogue</p>
               <h2 className="mt-3 text-3xl font-bold uppercase md:text-5xl">Our games</h2>
             </div>
             </div>
@@ -127,7 +126,6 @@ function Index() {
         <section id="contact" className="relative overflow-hidden border-t border-border">
           <div className="grid-bg absolute inset-0 opacity-60" />
           <div className="relative mx-auto max-w-3xl px-6 py-24 text-center">
-            <p className="label-mono">02 — Contact</p>
             <h2 className="mt-3 text-3xl font-bold uppercase md:text-5xl">
               We'd love to hear from you
             </h2>
