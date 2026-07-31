@@ -3,6 +3,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import logoMark from "@/assets/stickbreak-logo.png";
 import game1 from "@/assets/game-1.jpg";
 import { GameCard } from "@/components/site/GameCard";
+import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/")({
   head: () => ({
