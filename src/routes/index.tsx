@@ -114,7 +114,7 @@ function Index() {
           <div className="border-b border-border pb-6">
             <h2 className="text-3xl font-bold uppercase md:text-5xl">Our games</h2>
           </div>
-          <div className="mt-10 grid gap-6 md:grid-cols-3 md:justify-center">
+          <div className={cn("mt-10 grid gap-6", games.length === 1 ? "place-items-center" : "md:grid-cols-3")}>
             {games.map((game) => (
               <GameCard key={game.title} {...game} />
             ))}
