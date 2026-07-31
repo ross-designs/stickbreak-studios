@@ -89,8 +89,7 @@ function Index() {
             />
 
             <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-              A one-man indie game studio currently focused on simple arcade games and
-              homebrew titles, on mobile and retro handhelds.
+              A small indie game studio currently focused on arcade games and homebrew titles, across mobile and retro handhelds.
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
               <a
