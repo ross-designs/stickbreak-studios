@@ -129,7 +129,7 @@ function Index() {
           <div className="relative mx-auto max-w-3xl px-6 py-24 text-center">
             <p className="label-mono">02 — Contact</p>
             <h2 className="mt-3 text-3xl font-bold uppercase md:text-5xl">
-              Press, publishing, or just say hi
+              We'd love to hear from you
             </h2>
             <p className="mx-auto mt-5 max-w-md text-sm text-muted-foreground">
               We answer every email — usually between builds, occasionally at 3am.
