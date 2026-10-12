@@ -8,3 +8,4 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+- Site is fully prerendered static output (dist/client) deployed to GitHub Pages; keep assets/fonts as local files, never Lovable-hosted URLs, because Pages can't resolve them.
